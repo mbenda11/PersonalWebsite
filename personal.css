@@ -1,0 +1,36 @@
+header {background-color: #09D8DC;
+    height: 150px;
+    margin-bottom: 0 px;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+}
+nav { font-weight: bold;
+	 letter-spacing: 0.1em;
+    float: left; 
+    width: 200px;
+    height: 1000px;
+    background-color: bisque;
+    
+	 }
+body {font-family: Verdana, Arial, sans-serif}
+
+@media only screen and (max-width: 768px) {
+    header {background-image: url(banner.png); height: 128px}
+    h1 {font-size: 2em; 
+        text-align: center; 
+        padding-left: 0px}
+    nav {margin: 0px;
+    display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom: 1px}
+    main {padding-top: 1px;}
+    h2 {padding-top: 0.5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.5em;
+    margin-right: 0.5em;}
+    details {padding-left: 0px; padding-right: 0px;}
+    #mobile (display: inline;)
+    #desktop (display: none;)
+}
